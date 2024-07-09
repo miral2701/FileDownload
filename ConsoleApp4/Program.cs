@@ -10,6 +10,7 @@ namespace ConsoleApp4
             t1.Start();
             Console.ReadLine();
         }
+
         public static void Download()
         {
             using (WebClient client = new WebClient())
